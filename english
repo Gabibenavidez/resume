@@ -55,7 +55,7 @@
 
 %----------------------------------------------------------------------------------------
 \section{Summary}
-Frontend Developer with 4+ years of experience building scalable web applications using modern frontend technologies, with a strong focus on React.js. Expertise in performance optimization, responsive design, and SEO best practices. Demonstrated ability in leading development teams, collaborating across cross-functional environments, and delivering high-quality solutions in agile settings. Experience in improving development processes through Python and JavaScript-based scripting and automation.
+Frontend Developer with 4+ years of experience building scalable web applications using modern frontend technologies, with a strong focus on React.js. Demonstrated ability in leading development teams, managing client interactions, and closely tracking product progress through demos, validations, and constant feedback. Expertise in performance optimization, responsive design, and SEO best practices. Experience in improving development processes through Python and JavaScript-based scripting and automation.
 
 %----------------------------------------------------------------------------------------
 \section{Work Experience}
@@ -65,19 +65,18 @@ Frontend Developer with 4+ years of experience building scalable web application
 \item Mentorship of developers and promotion of best practices, improving overall code quality and team efficiency.
 \item Design and development of internal tools using JavaScript and Python scripting to automate workflows and optimize team productivity.
 \item Identification of process bottlenecks and implementation of automation solutions, reducing manual effort and increasing delivery speed.
-\item Collaboration with cross-functional teams to align technical solutions with business objectives.
-\item Contribution to continuous improvement of development processes and internal tooling.
+\item Collaboration with cross-functional teams and close product tracking with clients.
+\item Contribution to continuous improvement of development processes and internal tooling, including creation of technical documentation.
 \end{joblong}
 
 \begin{joblong}{React Developer \textbar\ Midas Consultores}{Jul 2023 - Jun 2024}
 \item Collaboration across three cross-functional teams delivering frontend solutions using React 18 and Next.js 13.
 \item Development of reusable UI components with Material UI, improving consistency and scalability.
 \item Implementation of advanced form handling using Formik and React Hook Form.
-\item Integration of applications with REST APIs, including debugging and resolution of production issues.
+\item Integration of applications with REST APIs and backend services, ensuring adherence to API contracts, including debugging and resolution of production issues.
 \item Participation in Agile environments (Scrum and Kanban), contributing to estimations and planning.
-\item Support of team leadership, mentorship of developers, and contribution to decision-making.
-\item Management of client interactions including demos, validations, and requirement alignment.
-\item Development of data visualization components using ApexCharts.
+\item Management of client interactions and close product tracking, including demos, validations, and constant feedback.
+\item Development of data visualization and reporting components using ApexCharts, including real-time statistics and dashboards.
 \end{joblong}
 
 \begin{joblong}{Frontend Developer \textbar\ Hogarth Worldwide}{Jun 2022 - Jul 2023}
