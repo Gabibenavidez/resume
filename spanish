@@ -1,0 +1,118 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{url}
+\usepackage{parskip} 	
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{supertabular}
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[unicode]{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\newenvironment{jobshort}[2]
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill & #2 \\[3.75pt]
+\end{tabularx}
+}
+{}
+
+\newenvironment{joblong}[2]
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill & #2 \\[3.75pt]
+\end{tabularx}
+\begin{itemize}[nosep,leftmargin=1em,itemsep=3pt,label=--]
+}
+{
+\end{itemize}
+}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Gabriel Benavidez} \\[7.5pt]
+\href{https://linkedin.com/in/gabriel-benavidez-fe}{\raisebox{-0.05\height}\faLinkedin\ gabriel-benavidez-fe} \ $|$ \ 
+\href{mailto:gabriel.m.benavidez@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ gabriel.m.benavidez@gmail.com} \ $|$ \ 
+\raisebox{-0.05\height}\faMapMarker\ Buenos Aires, Argentina \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+\section{Resumen}
+Desarrollador Frontend con más de 4 años de experiencia construyendo aplicaciones web escalables utilizando tecnologías modernas de frontend, con un fuerte enfoque en React.js. Experto en optimización de rendimiento, diseño responsivo y mejores prácticas de SEO. Capacidad demostrada para liderar equipos de desarrollo, colaborar en entornos multidisciplinarios y entregar soluciones de alta calidad en entornos ágiles. Experiencia mejorando procesos de desarrollo mediante scripting y automatización con Python y JavaScript.
+
+%----------------------------------------------------------------------------------------
+\section{Experiencia Laboral}
+
+\begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Ago 2024 - Presente}
+\item Lideré el equipo de desarrollo, coordinando tareas, definiendo prioridades y asegurando entregas a tiempo en un entorno ágil.
+\item Mentoricé a desarrolladores y promoví las mejores prácticas, mejorando la calidad del código y la eficiencia del equipo.
+\item Diseñé y desarrollé herramientas internas utilizando scripting en JavaScript y Python para automatizar flujos de trabajo de desarrollo y mejorar la eficiencia del equipo.
+\item Identifiqué cuellos de botella en los procesos e implementé soluciones de automatización, reduciendo el esfuerzo manual y aumentando la velocidad de entrega.
+\item Colaboré con equipos multifuncionales para alinear soluciones técnicas con necesidades del negocio.
+\item Contribuí a la mejora continua de procesos de desarrollo y herramientas internas.
+\end{joblong}
+
+\begin{joblong}{Desarrollador React \textbar\ Midas Consultores}{Jul 2023 - Jun 2024}
+\item Colaboré con tres equipos multifuncionales entregando soluciones frontend usando React 18 y Next.js 13.
+\item Desarrollé componentes de UI reutilizables con Material UI, mejorando la consistencia y escalabilidad.
+\item Implementé manejo complejo de formularios usando Formik y React Hook Form.
+\item Integré aplicaciones con APIs REST, realizando debugging y resolución de incidencias en producción.
+\item Participé en entornos ágiles (Scrum y Kanban), contribuyendo en estimaciones y planificación.
+\item Apoyé en liderazgo de equipo, mentoreando desarrolladores y contribuyendo en la toma de decisiones.
+\item Lideré interacciones con clientes incluyendo demos, validaciones y alineación de requerimientos.
+\item Desarrollé componentes de visualización de datos utilizando ApexCharts.
+\end{joblong}
+
+\begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Jun 2022 - Jul 2023}
+\item Desarrollé y mantuve aplicaciones web para un cliente tecnológico global usando React.js, HTML, CSS y JavaScript.
+\item Aseguré diseño responsivo y compatibilidad entre navegadores.
+\item Apliqué mejores prácticas de SEO para mejorar el rendimiento y visibilidad del sitio.
+\item Implementé renderizado condicional basado en Apache para entrega dinámica de campañas.
+\item Colaboré con equipos multifuncionales incluyendo QA, diseño y producto.
+\item Gestioné control de versiones utilizando SVN.
+\end{joblong}
+
+\begin{jobshort}{Desarrollador React \textbar\ Alkemy Labs}{Ene 2022 - Jun 2022}
+Construí aplicaciones basadas en React enfocándome en arquitectura de componentes, gestión de estado y mejores prácticas en desarrollo frontend.
+\end{jobshort}
+
+%----------------------------------------------------------------------------------------
+\section{Habilidades}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Frontend & React.js, Next.js, JavaScript, TypeScript, HTML semántico, CSS, estándares WCAG \\
+Librerías de UI & Material UI, Chakra UI, Bootstrap, Tailwind, Shadcn \\
+Gestión de Estado & Redux Toolkit, React Context \\
+Formularios & Formik, React Hook Form \\
+Backend & Node.js, MongoDB \\
+Herramientas & Git, SVN, Postman \\
+Otros & Python (Scripting, Automatización), APIs REST, SEO, Diseño Responsivo \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+\section{Idiomas}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Español & Nativo \\
+Inglés & Avanzado (C1) \\
+\end{tabularx}
+
+\vfill
+\center{\footnotesize Última actualización: \today}
+
+\end{document}
