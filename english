@@ -1,0 +1,118 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{url}
+\usepackage{parskip} 	
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{supertabular}
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[unicode]{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\newenvironment{jobshort}[2]
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill & #2 \\[3.75pt]
+\end{tabularx}
+}
+{}
+
+\newenvironment{joblong}[2]
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill & #2 \\[3.75pt]
+\end{tabularx}
+\begin{itemize}[nosep,leftmargin=1em,itemsep=3pt,label=--]
+}
+{
+\end{itemize}
+}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Gabriel Benavidez} \\[7.5pt]
+\href{https://linkedin.com/in/gabriel-benavidez-fe}{\raisebox{-0.05\height}\faLinkedin\ gabriel-benavidez-fe} \ $|$ \ 
+\href{mailto:gabriel.m.benavidez@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ gabriel.m.benavidez@gmail.com} \ $|$ \ 
+\raisebox{-0.05\height}\faMapMarker\ Buenos Aires, Argentina \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+\section{Summary}
+Frontend Developer with 4+ years of experience building scalable web applications using modern frontend technologies, with a strong focus on React.js. Expertise in performance optimization, responsive design, and SEO best practices. Proven ability to lead development teams, collaborate across cross-functional environments, and deliver high-quality solutions in agile settings. Experience improving development processes through Python and JavaScript-based scripting and automation.
+
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+
+\begin{joblong}{Frontend Developer \textbar\ Hogarth Worldwide}{Aug 2024 - Present}
+\item Led the development team, coordinating tasks, defining priorities, and ensuring timely delivery in an agile environment.
+\item Mentored developers and enforced best practices, improving overall code quality and team efficiency.
+\item Designed and developed internal tools using JavaScript and Python scripting to automate development workflows and improve team efficiency.
+\item Identified process bottlenecks and implemented automation solutions, reducing manual effort and increasing delivery speed.
+\item Collaborated with cross-functional teams to align technical solutions with business needs.
+\item Contributed to continuous improvement of development processes and internal tooling.
+\end{joblong}
+
+\begin{joblong}{React Developer \textbar\ Midas Consultores}{Jul 2023 - Jun 2024}
+\item Collaborated across three cross-functional teams delivering frontend solutions using React 18 and Next.js 13.
+\item Developed reusable UI components with Material UI, improving consistency and scalability.
+\item Implemented complex form handling using Formik and React Hook Form.
+\item Integrated applications with REST APIs, performing debugging and production issue resolution.
+\item Participated in Agile environments (Scrum and Kanban), contributing to estimations and planning.
+\item Supported team leadership, mentoring developers and contributing to decision-making.
+\item Led client interactions including demos, validations, and requirement alignment.
+\item Developed data visualization components using ApexCharts.
+\end{joblong}
+
+\begin{joblong}{Frontend Developer \textbar\ Hogarth Worldwide}{Jun 2022 - Jul 2023}
+\item Developed and maintained web applications for a global technology client using React.js, HTML, CSS, and JavaScript.
+\item Ensured responsive design and cross-browser compatibility.
+\item Applied SEO best practices to improve site performance and visibility.
+\item Implemented Apache-based conditional rendering for dynamic campaign delivery.
+\item Collaborated with cross-functional teams including QA, design, and product.
+\item Managed version control using SVN.
+\end{joblong}
+
+\begin{jobshort}{React Developer \textbar\ Alkemy Labs}{Jan 2022 - Jun 2022}
+Built React-based applications focusing on component architecture, state management, and best practices in frontend development.
+\end{jobshort}
+
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Frontend & React.js, Next.js, JavaScript, TypeScript, semantic HTML, CSS, WCAG standars \\
+UI Libraries & Material UI, Chakra UI, Bootstrap, Tailwind, Shadcn \\
+State Management & Redux Toolkit, React Context \\
+Forms & Formik, React Hook Form \\
+Backend & Node.js, MongoDB \\
+Tools & Git, SVN, Postman \\
+Other & Python (Scripting, Automation), REST APIs, SEO, Responsive Design \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+\section{Languages}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Spanish & Native \\
+English & Advanced (C1) \\
+\end{tabularx}
+
+\vfill
+\center{\footnotesize Last updated: \today}
+
+\end{document}
