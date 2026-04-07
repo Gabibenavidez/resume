@@ -55,7 +55,7 @@
 
 %----------------------------------------------------------------------------------------
 \section{Resumen Profesional}
-Desarrollador Frontend con más de 4 años de experiencia en la construcción de aplicaciones web escalables utilizando tecnologías modernas de frontend, con fuerte especialización en React.js. Experiencia demostrada en liderazgo de equipos de desarrollo, gestión de interacciones con clientes y seguimiento cercano del producto mediante demos, validaciones y retroalimentación constante. Experto en optimización de rendimiento, diseño responsivo y buenas prácticas de SEO. Contribución a la mejora de procesos de desarrollo mediante scripting y automatización con Python y JavaScript.
+Desarrollador con más de 4 años de experiencia en la construcción de aplicaciones web escalables utilizando tecnologías modernas de frontend, con fuerte especialización en React.js. Experiencia demostrada en liderazgo de equipos de desarrollo, gestión de interacciones con clientes y seguimiento cercano del producto mediante demos, validaciones y retroalimentación constante. Experto en optimización de rendimiento, diseño responsivo y buenas prácticas de SEO. Contribución a la mejora de procesos de desarrollo mediante scripting y automatización con Python y JavaScript.
 
 %----------------------------------------------------------------------------------------
 \section{Experiencia Laboral}
@@ -88,9 +88,20 @@ Desarrollador Frontend con más de 4 años de experiencia en la construcción de
 \item Gestión de control de versiones utilizando SVN.
 \end{joblong}
 
-\begin{jobshort}{React Developer \textbar\ Alkemy Labs}{Ene 2022 - Jun 2022}
-Desarrollo de aplicaciones basadas en React enfocadas en arquitectura de componentes, manejo de estado y buenas prácticas de frontend.
-\end{jobshort}
+\begin{joblong}{React Developer \textbar\ Alkemy Labs}{Ene 2022 - Jun 2022}
+\item Desarrollo de aplicaciones basadas en React enfocadas en arquitectura de componentes, manejo de estado y buenas prácticas de frontend.
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+\section{Habilidades Blandas}
+\begin{itemize}[nosep,leftmargin=1em,itemsep=3pt,label=--]
+\item Liderazgo y mentoría de equipos
+\item Comunicación efectiva con clientes y stakeholders
+\item Gestión de proyectos y prioridades
+\item Resolución de problemas y proactividad
+\item Adaptabilidad en entornos ágiles
+\item Colaboración cross-functional
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 \section{Habilidades}
