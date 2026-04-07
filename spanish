@@ -55,42 +55,42 @@
 
 %----------------------------------------------------------------------------------------
 \section{Resumen}
-Desarrollador Frontend con más de 4 años de experiencia construyendo aplicaciones web escalables utilizando tecnologías modernas de frontend, con un fuerte enfoque en React.js. Experto en optimización de rendimiento, diseño responsivo y mejores prácticas de SEO. Capacidad demostrada para liderar equipos de desarrollo, colaborar en entornos multidisciplinarios y entregar soluciones de alta calidad en entornos ágiles. Experiencia mejorando procesos de desarrollo mediante scripting y automatización con Python y JavaScript.
+Desarrollador Frontend con más de 4 años de experiencia construyendo aplicaciones web escalables utilizando tecnologías modernas de frontend, con un fuerte enfoque en React.js. Experto en optimización de rendimiento, diseño responsivo y mejores prácticas de SEO. Experiencia en liderazgo de equipos de desarrollo, colaboración en entornos multidisciplinarios y entrega de soluciones de alta calidad en entornos ágiles. Capacidad para mejorar procesos de desarrollo mediante scripting y automatización con Python y JavaScript.
 
 %----------------------------------------------------------------------------------------
 \section{Experiencia Laboral}
 
 \begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Ago 2024 - Presente}
-\item Lideré el equipo de desarrollo, coordinando tareas, definiendo prioridades y asegurando entregas a tiempo en un entorno ágil.
-\item Mentoricé a desarrolladores y promoví las mejores prácticas, mejorando la calidad del código y la eficiencia del equipo.
-\item Diseñé y desarrollé herramientas internas utilizando scripting en JavaScript y Python para automatizar flujos de trabajo de desarrollo y mejorar la eficiencia del equipo.
-\item Identifiqué cuellos de botella en los procesos e implementé soluciones de automatización, reduciendo el esfuerzo manual y aumentando la velocidad de entrega.
-\item Colaboré con equipos multifuncionales para alinear soluciones técnicas con necesidades del negocio.
-\item Contribuí a la mejora continua de procesos de desarrollo y herramientas internas.
+\item Liderazgo de equipo de desarrollo, coordinación de tareas, definición de prioridades y aseguramiento de entregas a tiempo en un entorno ágil.
+\item Mentoría a desarrolladores y promoción de mejores prácticas, mejorando la calidad del código y la eficiencia del equipo.
+\item Diseño y desarrollo de herramientas internas utilizando scripting en JavaScript y Python para automatizar flujos de trabajo y optimizar la productividad.
+\item Identificación de cuellos de botella en procesos e implementación de soluciones de automatización, reduciendo el esfuerzo manual y aumentando la velocidad de entrega.
+\item Colaboración con equipos multifuncionales para alinear soluciones técnicas con los objetivos del negocio.
+\item Contribución a la mejora continua de procesos de desarrollo y herramientas internas.
 \end{joblong}
 
 \begin{joblong}{Desarrollador React \textbar\ Midas Consultores}{Jul 2023 - Jun 2024}
-\item Colaboré con tres equipos multifuncionales entregando soluciones frontend usando React 18 y Next.js 13.
-\item Desarrollé componentes de UI reutilizables con Material UI, mejorando la consistencia y escalabilidad.
-\item Implementé manejo complejo de formularios usando Formik y React Hook Form.
-\item Integré aplicaciones con APIs REST, realizando debugging y resolución de incidencias en producción.
-\item Participé en entornos ágiles (Scrum y Kanban), contribuyendo en estimaciones y planificación.
-\item Apoyé en liderazgo de equipo, mentoreando desarrolladores y contribuyendo en la toma de decisiones.
-\item Lideré interacciones con clientes incluyendo demos, validaciones y alineación de requerimientos.
-\item Desarrollé componentes de visualización de datos utilizando ApexCharts.
+\item Colaboración con tres equipos multifuncionales para la entrega de soluciones frontend utilizando React 18 y Next.js 13.
+\item Desarrollo de componentes de UI reutilizables con Material UI, mejorando consistencia y escalabilidad.
+\item Implementación de manejo avanzado de formularios mediante Formik y React Hook Form.
+\item Integración de aplicaciones con APIs REST, incluyendo depuración y resolución de incidencias en producción.
+\item Participación en entornos ágiles (Scrum y Kanban), contribuyendo en estimaciones y planificación.
+\item Apoyo en liderazgo de equipo, mentoría a desarrolladores y contribución en la toma de decisiones.
+\item Gestión de interacciones con clientes, incluyendo demos, validaciones y alineación de requerimientos.
+\item Desarrollo de componentes para visualización de datos utilizando ApexCharts.
 \end{joblong}
 
 \begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Jun 2022 - Jul 2023}
-\item Desarrollé y mantuve aplicaciones web para un cliente tecnológico global usando React.js, HTML, CSS y JavaScript.
-\item Aseguré diseño responsivo y compatibilidad entre navegadores.
-\item Apliqué mejores prácticas de SEO para mejorar el rendimiento y visibilidad del sitio.
-\item Implementé renderizado condicional basado en Apache para entrega dinámica de campañas.
-\item Colaboré con equipos multifuncionales incluyendo QA, diseño y producto.
-\item Gestioné control de versiones utilizando SVN.
+\item Desarrollo y mantenimiento de aplicaciones web para un cliente tecnológico global utilizando React.js, HTML, CSS y JavaScript.
+\item Aseguramiento de diseño responsivo y compatibilidad entre navegadores.
+\item Aplicación de mejores prácticas de SEO para optimizar rendimiento y visibilidad del sitio.
+\item Implementación de renderizado condicional basado en Apache para entrega dinámica de campañas.
+\item Colaboración con equipos multifuncionales, incluyendo QA, diseño y producto.
+\item Gestión de control de versiones mediante SVN.
 \end{joblong}
 
 \begin{jobshort}{Desarrollador React \textbar\ Alkemy Labs}{Ene 2022 - Jun 2022}
-Construí aplicaciones basadas en React enfocándome en arquitectura de componentes, gestión de estado y mejores prácticas en desarrollo frontend.
+Desarrollo de aplicaciones basadas en React, enfocado en arquitectura de componentes, gestión de estado y mejores prácticas en desarrollo frontend.
 \end{jobshort}
 
 %----------------------------------------------------------------------------------------
