@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,12pt]{article} 
 
 \usepackage{url}
 \usepackage{parskip} 	
@@ -54,51 +54,50 @@
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-\section{Resumen}
-Desarrollador Frontend con más de 4 años de experiencia construyendo aplicaciones web escalables utilizando tecnologías modernas de frontend, con un fuerte enfoque en React.js. Experto en optimización de rendimiento, diseño responsivo y mejores prácticas de SEO. Experiencia en liderazgo de equipos de desarrollo, colaboración en entornos multidisciplinarios y entrega de soluciones de alta calidad en entornos ágiles. Capacidad para mejorar procesos de desarrollo mediante scripting y automatización con Python y JavaScript.
+\section{Resumen Profesional}
+Desarrollador Frontend con más de 4 años de experiencia en la construcción de aplicaciones web escalables utilizando tecnologías modernas de frontend, con fuerte especialización en React.js. Experiencia demostrada en liderazgo de equipos de desarrollo, gestión de interacciones con clientes y seguimiento cercano del producto mediante demos, validaciones y retroalimentación constante. Experto en optimización de rendimiento, diseño responsivo y buenas prácticas de SEO. Contribución a la mejora de procesos de desarrollo mediante scripting y automatización con Python y JavaScript.
 
 %----------------------------------------------------------------------------------------
 \section{Experiencia Laboral}
 
-\begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Ago 2024 - Presente}
-\item Liderazgo de equipo de desarrollo, coordinación de tareas, definición de prioridades y aseguramiento de entregas a tiempo en un entorno ágil.
+\begin{joblong}{Frontend Developer \textbar\ Hogarth Worldwide}{Ago 2024 - Presente}
+\item Liderazgo del equipo de desarrollo, coordinación de tareas, definición de prioridades y aseguramiento de entregas a tiempo en un entorno ágil.
 \item Mentoría a desarrolladores y promoción de mejores prácticas, mejorando la calidad del código y la eficiencia del equipo.
-\item Diseño y desarrollo de herramientas internas utilizando scripting en JavaScript y Python para automatizar flujos de trabajo y optimizar la productividad.
-\item Identificación de cuellos de botella en procesos e implementación de soluciones de automatización, reduciendo el esfuerzo manual y aumentando la velocidad de entrega.
-\item Colaboración con equipos multifuncionales para alinear soluciones técnicas con los objetivos del negocio.
-\item Contribución a la mejora continua de procesos de desarrollo y herramientas internas.
+\item Diseño y desarrollo de herramientas internas utilizando scripting en JavaScript y Python para automatizar flujos de trabajo y optimizar la productividad del equipo.
+\item Identificación de cuellos de botella en los procesos e implementación de soluciones de automatización, reduciendo el esfuerzo manual y aumentando la velocidad de entrega.
+\item Colaboración con equipos multifuncionales y seguimiento cercano del producto con clientes, incluyendo demos, validaciones y feedback constante.
+\item Contribución a la mejora continua de procesos de desarrollo y herramientas internas, incluyendo la creación de documentación técnica.
 \end{joblong}
 
-\begin{joblong}{Desarrollador React \textbar\ Midas Consultores}{Jul 2023 - Jun 2024}
+\begin{joblong}{React Developer \textbar\ Midas Consultores}{Jul 2023 - Jun 2024}
 \item Colaboración con tres equipos multifuncionales para la entrega de soluciones frontend utilizando React 18 y Next.js 13.
 \item Desarrollo de componentes de UI reutilizables con Material UI, mejorando consistencia y escalabilidad.
 \item Implementación de manejo avanzado de formularios mediante Formik y React Hook Form.
-\item Integración de aplicaciones con APIs REST, incluyendo depuración y resolución de incidencias en producción.
+\item Integración de aplicaciones con APIs REST y servicios backend, asegurando el cumplimiento de contratos de API, incluyendo depuración y resolución de incidencias en producción.
 \item Participación en entornos ágiles (Scrum y Kanban), contribuyendo en estimaciones y planificación.
-\item Apoyo en liderazgo de equipo, mentoría a desarrolladores y contribución en la toma de decisiones.
-\item Gestión de interacciones con clientes, incluyendo demos, validaciones y alineación de requerimientos.
-\item Desarrollo de componentes para visualización de datos utilizando ApexCharts.
+\item Gestión de interacciones con clientes y seguimiento cercano del producto, incluyendo demos, validaciones y retroalimentación constante.
+\item Desarrollo de componentes de visualización de datos y reportes utilizando ApexCharts, incluyendo estadísticas en tiempo real y dashboards.
 \end{joblong}
 
-\begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Jun 2022 - Jul 2023}
-\item Desarrollo y mantenimiento de aplicaciones web para un cliente tecnológico global utilizando React.js, HTML, CSS y JavaScript.
-\item Aseguramiento de diseño responsivo y compatibilidad entre navegadores.
-\item Aplicación de mejores prácticas de SEO para optimizar rendimiento y visibilidad del sitio.
+\begin{joblong}{Frontend Developer \textbar\ Hogarth Worldwide}{Jun 2022 - Jul 2023}
+\item Desarrollo y mantenimiento de aplicaciones web para un cliente global del sector tecnológico utilizando React.js, HTML, CSS y JavaScript.
+\item Aseguramiento de diseño responsivo y compatibilidad cross-browser.
+\item Aplicación de buenas prácticas de SEO para optimizar el rendimiento y visibilidad del sitio.
 \item Implementación de renderizado condicional basado en Apache para entrega dinámica de campañas.
-\item Colaboración con equipos multifuncionales, incluyendo QA, diseño y producto.
-\item Gestión de control de versiones mediante SVN.
+\item Colaboración con equipos multifuncionales incluyendo QA, diseño y producto.
+\item Gestión de control de versiones utilizando SVN.
 \end{joblong}
 
-\begin{jobshort}{Desarrollador React \textbar\ Alkemy Labs}{Ene 2022 - Jun 2022}
-Desarrollo de aplicaciones basadas en React, enfocado en arquitectura de componentes, gestión de estado y mejores prácticas en desarrollo frontend.
+\begin{jobshort}{React Developer \textbar\ Alkemy Labs}{Ene 2022 - Jun 2022}
+Desarrollo de aplicaciones basadas en React enfocadas en arquitectura de componentes, manejo de estado y buenas prácticas de frontend.
 \end{jobshort}
 
 %----------------------------------------------------------------------------------------
 \section{Habilidades}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
 Frontend & React.js, Next.js, JavaScript, TypeScript, HTML semántico, CSS, estándares WCAG \\
-Librerías de UI & Material UI, Chakra UI, Bootstrap, Tailwind, Shadcn \\
-Gestión de Estado & Redux Toolkit, React Context \\
+Librerías UI & Material UI, Chakra UI, Bootstrap, Tailwind, Shadcn \\
+Manejo de Estado & Redux Toolkit, React Context \\
 Formularios & Formik, React Hook Form \\
 Backend & Node.js, MongoDB \\
 Herramientas & Git, SVN, Postman \\
