@@ -55,7 +55,7 @@
 
 %----------------------------------------------------------------------------------------
 \section{Summary}
-Frontend Developer with 4+ years of experience building scalable web applications using modern frontend technologies, with a strong focus on React.js. Demonstrated ability in leading development teams, managing client interactions, and closely tracking product progress through demos, validations, and constant feedback. Expertise in performance optimization, responsive design, and SEO best practices. Experience in improving development processes through Python and JavaScript-based scripting and automation.
+Developer with 4+ years of experience building scalable web applications using modern frontend technologies, with a strong focus on React.js. Demonstrated ability in leading development teams, managing client interactions, and closely tracking product progress through demos, validations, and constant feedback. Expertise in performance optimization, responsive design, and SEO best practices. Experience in improving development processes through Python and JavaScript-based scripting and automation.
 
 %----------------------------------------------------------------------------------------
 \section{Work Experience}
@@ -88,9 +88,19 @@ Frontend Developer with 4+ years of experience building scalable web application
 \item Management of version control using SVN.
 \end{joblong}
 
-\begin{jobshort}{React Developer \textbar\ Alkemy Labs}{Jan 2022 - Jun 2022}
-Development of React-based applications focused on component architecture, state management, and frontend best practices.
-\end{jobshort}
+\begin{joblong}{React Developer \textbar\ Alkemy Labs}{Jan 2022 - Jun 2022}
+\item Development of React-based applications focused on component architecture, state management, and frontend best practices.
+\end{joblong}
+%----------------------------------------------------------------------------------------
+\section{Soft Skills}
+\begin{itemize}[nosep,leftmargin=1em,itemsep=3pt,label=--]
+\item Leadership and team mentoring
+\item Effective communication with clients and stakeholders
+\item Project and priority management
+\item Problem solving and proactivity
+\item Adaptability in agile environments
+\item Cross-functional collaboration
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 \section{Skills}
