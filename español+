@@ -1,0 +1,140 @@
+\documentclass[a4paper,12pt]{article} 
+
+\usepackage{url}
+\usepackage{parskip} 	
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{supertabular}
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[unicode]{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\newenvironment{jobshort}[2]
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill & #2 \\[3.75pt]
+\end{tabularx}
+}
+{}
+
+\newenvironment{joblong}[2]
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill & #2 \\[3.75pt]
+\end{tabularx}
+\begin{itemize}[nosep,leftmargin=1em,itemsep=3pt,label=--]
+}
+{
+\end{itemize}
+}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Gabriel Benavidez} \\[7.5pt]
+\href{https://linkedin.com/in/gabriel-benavidez-fe}{\raisebox{-0.05\height}\faLinkedin\ gabriel-benavidez-fe} \ $|$ \ 
+\href{mailto:gabriel.m.benavidez@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ gabriel.m.benavidez@gmail.com} \ $|$ \ 
+\raisebox{-0.05\height}\faMapMarker\ Buenos Aires, Argentina \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+\section{Resumen Profesional}
+
+Ingeniero de Software con 5 años de experiencia desarrollando aplicaciones web empresariales, sitios web y sistemas de reportes utilizando TypeScript, React.js, Next.js y tecnologías frontend modernas. Sólida experiencia en arquitectura frontend escalable, optimización de rendimiento, gestión de estado global y desarrollo de dashboards y métricas en tiempo real.
+
+Participación activa en la toma de decisiones técnicas, revisiones de código, incorporación de desarrolladores y colaboración cercana con PMs, stakeholders y clientes en entornos ágiles y multiculturales. Experiencia integrando aplicaciones frontend con servicios backend REST mediante contratos de API, especificaciones Swagger/OpenAPI, autenticación JWT y arquitecturas orientadas a servicios.
+
+Uso diario de herramientas de desarrollo asistidas por IA y flujos de trabajo de desarrollo agéntico (Claude Code, ChatGPT) para acelerar la entrega de software, automatizar tareas repetitivas, mejorar la productividad del equipo y asistir en la toma de decisiones arquitectónicas manteniendo altos estándares de calidad de código.
+
+%----------------------------------------------------------------------------------------
+\section{Experiencia Laboral}
+
+\begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Ago 2024 - Presente}
+\item Liderazgo del equipo de desarrollo, coordinación de tareas, definición de prioridades y aseguramiento de entregas en tiempo y forma dentro de un entorno ágil.
+\item Mentoría a desarrolladores y promoción de buenas prácticas, mejorando la calidad general del código y la eficiencia del equipo.
+\item Diseño y desarrollo de herramientas internas utilizando JavaScript y scripts en Python para automatizar flujos de trabajo y optimizar la productividad del equipo.
+\item Identificación de cuellos de botella en procesos e implementación de soluciones de automatización, reduciendo esfuerzo manual e incrementando la velocidad de entrega.
+\item Colaboración con equipos multidisciplinarios y seguimiento cercano del producto junto a clientes.
+\item Contribución a la mejora continua de procesos de desarrollo y herramientas internas, incluyendo la creación de documentación técnica.
+\end{joblong}
+
+\begin{joblong}{Desarrollador React \textbar\ Midas Consultores}{Jul 2023 - Jun 2024}
+\item Desarrollo de aplicaciones empresariales utilizando React 18 y Next.js 13.
+\item Participación activa en decisiones técnicas, estimaciones de backlog, revisiones de código e incorporación de nuevos desarrolladores.
+\item Desarrollo de componentes reutilizables y sistemas de diseño utilizando Material UI.
+\item Implementación de formularios dinámicos complejos con validaciones dinámicas basadas en APIs.
+\item Integración con servicios backend REST utilizando especificaciones Swagger/OpenAPI, contratos de API y autenticación JWT.
+\item Implementación de capas centralizadas de comunicación con APIs mediante Axios Instances, incluyendo autenticación JWT, interceptores, logging y manejo global de errores.
+\item Implementación de control de acceso basado en roles (RBAC), estrategias de logging y manejo global de errores.
+\item Desarrollo de dashboards en tiempo real y sistemas de reportes utilizando ApexCharts para métricas logísticas y operativas.
+\item Reingeniería y migración de aplicaciones de reportes y estadísticas desde Angular hacia React.js y Next.js.
+\item Optimización de rendimiento mediante lazy loading, memoización y mejoras de SEO.
+\item Colaboración cercana con PMs y clientes mediante demos, validaciones y seguimiento del producto.
+\end{joblong}
+
+\begin{joblong}{Desarrollador Frontend \textbar\ Hogarth Worldwide}{Jun 2022 - Jul 2023}
+\item Desarrollo y mantenimiento de aplicaciones web para un cliente tecnológico global utilizando React.js, HTML, CSS y JavaScript.
+\item Garantía de diseño responsive y compatibilidad entre navegadores.
+\item Aplicación de buenas prácticas de SEO para optimizar rendimiento y visibilidad del sitio.
+\item Implementación de renderizado condicional basado en Apache para la entrega dinámica de campañas.
+\item Colaboración con equipos multidisciplinarios incluyendo QA, diseño y producto.
+\item Gestión del control de versiones utilizando SVN.
+\end{joblong}
+
+\begin{joblong}{Desarrollador React \textbar\ Alkemy Labs}{Ene 2022 - Jun 2022}
+\item Desarrollo de aplicaciones basadas en React enfocadas en arquitectura de componentes, gestión de estado y buenas prácticas frontend.
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+\section{Habilidades Blandas}
+
+\begin{itemize}[nosep,leftmargin=1em,itemsep=3pt,label=--]
+\item Liderazgo y mentoría de equipos
+\item Comunicación efectiva con clientes y stakeholders
+\item Gestión de proyectos y prioridades
+\item Resolución de problemas y proactividad
+\item Adaptabilidad en entornos ágiles
+\item Colaboración interdisciplinaria
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+\section{Habilidades}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Frontend & React.js, Next.js, JavaScript, TypeScript, HTML semántico, CSS, SEO, WCAG \\
+Arquitectura & Redux Toolkit, React Context, Principios SOLID, Axios Instances \\
+Librerías UI & Material UI, Chakra UI, Bootstrap, TailwindCSS, Shadcn, Framer Motion \\
+Formularios & Formik, React Hook Form, Formularios dinámicos basados en APIs \\
+Backend & Node.js, MongoDB, Autenticación JWT, APIs REST \\
+Herramientas & Git, GitLab, Docker, SVN, Postman, Swagger/OpenAPI \\
+Rendimiento & Lazy Loading, Memoización, Optimización de rendimiento, Optimización SEO \\
+Otros & Scripts en Python, Automatización, Dashboards en tiempo real, Logging, RBAC, Desarrollo asistido por IA (Claude) \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+\section{Idiomas}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Español & Nativo \\
+Inglés & Avanzado (C1) \\
+\end{tabularx}
+
+\vfill
+
+\end{document}
